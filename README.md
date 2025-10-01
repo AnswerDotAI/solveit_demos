@@ -2,7 +2,7 @@
 
 Example dialogs to get your creative juices flowing.
 
-(Solveit is an unreleased product from Answer.AI. These dialogs are intended for the beta testers trying out the app. Keep an eye out for future Solveit courses to get access.)
+Solveit is currently only available via the ongoing course - see [solve.it.com](https://solve.it.com). Stay tuned for eventual release.
 
 ## Usage
 
@@ -10,4 +10,4 @@ In solveit, open the terminal and run `git clone https://github.com/AnswerDotAI/
 
 ## Contributing
 
-If you'd like to contribute an example, feel free to submit a PR or chat to us about getting one added here.
+If you'd like to contribute an example, feel free to submit a PR or chat to us about getting one added here. At the start of your dialog, include a small snippet showing the author, the purpose of the demo and a breif summary/motivation (see the embedding search demo for an example). Demos don't have to be perfectly polished - the more the merrier!
