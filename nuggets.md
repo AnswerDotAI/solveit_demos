@@ -129,7 +129,7 @@ from contextpack import *
 claudette_docs = ctx_claudette.core_docs.get()
 ```
 
-Reading a website other resources with `contextkit`:
+Reading a webpage with `contextkit`:
 
 ```python
 from contextkit import *
@@ -156,10 +156,16 @@ text_md = contextkit.read_pdf('2503.15790.pdf')
 text_latex = arxiv_dict.get('source','')
 ```
 
-Then prompt based on the contents:
+Then prompt based on the contents as markdown:
 
 ```
 Please summarize this paper: $`text_md`
+```
+
+Or see if the AI prefers to read the LaTeX:
+
+```
+Please summarize this paper: $`text_latex`
 ```
 
 ### Define and share a tool with AI
