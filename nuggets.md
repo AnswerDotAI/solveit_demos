@@ -1,4 +1,4 @@
-## Nuggets of SolveIt
+# SolveIt Nuggets
 
 SolveIt is flexible! It combines the capabilities of an AI chat system (like Claude.ai or ChatGPT), of a notebook system (like Jupyter ), and of a hosted virtual private server.
 
