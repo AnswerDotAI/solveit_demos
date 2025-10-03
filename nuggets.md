@@ -101,7 +101,7 @@ val = random.randint(1,10)
 This Prompt passes that variable's value to the AI
 
 ```markdown
-Please tell me the value of $\`val\`.
+Please tell me the value of $`val`.
 ```
 
 ### Share a markdown file with the AI
