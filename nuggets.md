@@ -40,21 +40,27 @@ As with some notebook systems, you may run a command as a shell command (rather 
 !ls # lists files in your instance's directory
 ```
 
-### Launch a public web server
+### Transiently serve files on a public URL
 
-If you launch an HTTP server in your SolveIt instance which listens on port 8000, then it will be publicly reachable via HTTPS your instance's public domain name. That public URL is one visible next to the globe icon, in your instance list.
+If you launch an HTTP server in your SolveIt instance which listens on port 8000, then it will be publicly reachable via HTTPS at instance's _public domain name_. The public URL is the one visible next to the globe icon, in your instance list.
 
-For instance, you can run a simple file server like so:
+For instance, if you wanted _transiently_ to serve the files in the directory `static`, you could simply run a simple file server like so:
 
 ```sh
-!python3 -m http.server
+!python3 -m http.server -d static
 ```
 
-### Download a file
+This server process will be killed after a period of time. 
+
+### Download a file from the private instance domain
 
 To download a file like `foo.md` directly from your instance, place it in the `static/` directory in your instance.
 
 Then you can download it from `https://PRIVATE_INSTANCE_URL/static/foo.md`. (But beware: this does expose your **private** domain url, which grants access to the instance. If you want to share a file publicly, run a web server pointing at `static/`.)
+
+### Run a persistent web server on a public URL
+
+TK
 
 ### Upload a file, like an image
 
