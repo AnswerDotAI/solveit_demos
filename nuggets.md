@@ -1,8 +1,10 @@
 # SolveIt Nuggets
 
-SolveIt is flexible! It combines the capabilities of an AI chat system (like Claude.ai or ChatGPT), of a notebook system (like Jupyter ), and of a hosted virtual private server.
+SolveIt is flexible! It combines the capabilities of an AI chat system (like Claude.ai or ChatGPT), of a notebook system (like Jupyter ), and of a hosted virtual private server. This flexibility means you can use it for a lot.
 
-This flexibility means you can use it for a lot. Here's some very short HOWTO examples, intended to be friendly for copy/pasting:
+These are SolveIt nuggets. They range from the mundane to the sublime.
+
+Every item contains concrete instructions, possibly inlcuding copy/pasteable code, which shows how to do one specific task. Call it the FAT file -- Frequently Asked Tasks.
 
 Here is how to...
 
