@@ -100,7 +100,7 @@ The dialog path is `work/projects/analysis` (remembering that `%2F` is just `/`)
 
 ## The Instant Delete Button
 
-When you duplicate a dialog, the copy has a name ending in `_dup` followed by a number (e.g., `scratch_dup3`).
+When you duplicate a dialog, or use the `/dialog_` route to auto-name a new dialog, the copy has a name ending in `_dup` followed by a number (e.g., `scratch_dup3`).
 
 Dialogs with this naming pattern have a special **instant delete** button (a bomb icon 💣) that appears in the menu. They can also be deleted merely by pushing `d`. This makes it quick to clean up duplicates you no longer need.
 
