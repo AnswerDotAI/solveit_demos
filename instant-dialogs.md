@@ -114,6 +114,7 @@ Dialogs that *don't* follow this naming pattern won't show the instant delete bu
 |------|-------------|
 | New dialog at root | `/dialog_` |
 | New dialog in folder | `/dialog_?name=folder/subfolder` |
+| New dialog with a specific name | `/dialog_?name=folder/dlgname` |
 | Duplicate existing dialog | `/dup_?name=path/to/dialog` |
 
 ---
